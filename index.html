@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Food Delivery </title>
+    <link rel="stylesheet" href="./proj.css"> </link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.css"> </link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="./Customers.js"></script>
+    <script src="./Database.js"></script>
+    <script src="./DeliveryEmployees.js"></script>
+    <script src="./Restaurants.js"></script>
+    <script src="./main.js"></script>
+    <script src="./formControl.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-2 mt-1">
+                <div class="form-group">
+                    <label for="details">Customer/Restaurant Details</label>
+                    <textarea class="form-control" id="details" rows="21"></textarea>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-10 mt-1">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="listOfCustomers">List of Customers, Restaurant </label>
+                            <textarea class="form-control" id="listOfCustomers" rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="button mt-3 mb-3" id="showCustomers">
+                            <p class="m-1">Show Customers </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="button mt-3 mb-3" id="showRestaurants">
+                            <p class="m-1">Show Restaurants </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <div class="wrapperForItems">
+                            <div class="form-group">
+                                <label for="listOfItems">List of Items</label>
+                                <textarea class="form-control" id="listOfItems" rows="5"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="cart">Items in Cart</label>
+                                <textarea class="form-control" id="cart" rows="5"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="row">
+                            <div class="button mt-4 mb-1" id="addToCart">
+                                <p class="m-1">Add to cart </p>
+                            </div>
+                            <div class="button mt-1 mb-1" id="buy">
+                                <p class="m-1">Buy </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
